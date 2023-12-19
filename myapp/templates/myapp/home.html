@@ -1,0 +1,148 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sanjoy Deb</title>
+    <link href="{% static '/css/main.css' %}" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+  </head>
+  <body>
+    <br />
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="card card-body h-100 border-info" id="profile-wrapper">
+            <img id="profile-pic" src="{% static 'images/sanjoy.jpeg' %}" />
+            <hr />
+            <ul class="social-links">
+              <a href="https://www.linkedin.com/in/sanjoydeb001/">
+                <li>
+                  <img class="social" src="{% static 'images/linkedin.png' %}" />
+                </li>
+              </a>
+              <a href="https://github.com/sanjoydevops">
+                <li>
+                  <img class="social" src="{% static 'images/github.png' %}" />
+                </li>
+              </a>
+            </ul>
+            <h4><strong>Hi I'm Sanjoy!</strong></h4>
+            <p>I have 4.7 year’s experience in DevOps and System Admin. A positive and passionate problem solver to learn and share the knowledge help to efficiently handle dynamically challenging situations and inspire co- workers. Want to work in a challenging and competitive environment where I can utilize my knowledge and automate your organization's software development process, to be able to optimize your software and infrastructure cost.</p>
+            <div class="skills">
+              <p>
+                <strong>Work Management :</strong> Jira, Redmine
+              </p>
+              <p>
+                <strong>Version Control :</strong> GitHub and BitBucket, GitLab.
+              </p>
+              <p>
+                <strong>Cloud Platform :</strong> Amazon Web Services (AWS), HUAWEI cloud, VMware and VPS server
+              </p>
+              <p>
+                <strong>Container Management :</strong> Docker, On premises Kubernetes and Amazon EKS.
+              </p>
+              <p>
+                <strong>Infrastructure Automation :</strong> Terraform. S3 Backend and module.
+              </p>
+              <p>
+                <strong>Automation :</strong> Ansible, Jenkins, Aws Code deploy and code pipeline.
+              </p>
+              <p>
+                <strong>Database Administration :</strong> MySQL.
+              </p>
+              <p>
+                <strong>Monitoring :</strong> New Relic, Grafana, Prometheus and zabbix.
+              </p>
+              <p>
+                <strong>Load Testing :</strong> Apache JMeter.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-9">
+          <div class="devops">
+            <h4><strong>My Experience as a DevOps Engineer</strong></h4>
+            <h8>SIMEC System LTD</h8><br />
+            <h8>4 October 2021 -- I am currently working in this role.</h8><br>
+            <h8>Location : Sector: 12, Uttara, Dhaka-1230</h8>
+            <hr />
+            <p>
+              Manage AWS infrastructure and on-premises data-center. <br /> Design and Implementation & AWS Cloud Architecture. <br /> Cost Effective Architecture and Cost Optimization best practice. <br />Deploy a NodeJs and laravel application using AWS code deploy and code pipeline with the AWS auto scaling and load balancing. <br />Manage and configure AWS RDS for Production and UAT. <br /> Monitoring and mange AWS environment using Cloud Watch and Cloud Trail. <br />Configure and install Oracle database 19c administration in oracle linux. <br /> Nginx, apache, Tomcat configuration and administration.Creating Jenkins pipeline for docker image building from pulling the source code from GitHub, pushing docker image to docker hub and deploying it kubernetes cluster. <br /> Deploying nodejs application with pm2 with nginx and deploying php applications with php-fpm with nginx and deploying java microservice-based application on Kubernetes. <br />Manage and configure on-premises kubernetes cluster and AWS EKS. <br /> Configure and manage private Docker registry, local GitLab server and integrating it with Kubernetes cluster. <br /> Monitoring Kubernetes cluster with Grafana and Prometheus. <br />Having good knowledge about containerization. <br />Managing docker containers, docker image management, inspecting containers, docker networking, docker volumes, creating dockerfile, using docker-compose, private docker registry. <br />Configuring pod networking cidr in kubernetes (canal, calico, flannel). <br />Configuring dashboard for kubernetes cluster. <br />Adding cpu and memory usage monitoring in kubernetes dashboard using metric-server.
+            </p>
+
+            <div class="system">
+              <h4><strong>My Experience as a System Administrator</strong></h4>
+              <h8>Field Nation</h8><br />
+              <h8>15 April 2019 -- 30 September 2021</h8><br>
+              <h8>Location : Minneapolis, MN 55402</h8>
+              <hr />
+              <p>
+                Installation and Up-Gradation of OS, Kernel, and additional packages. <br /> Experience with multiple OS environment such as Ubuntu, centos, amazon Linux etc. using RPM and YUM. <br />Experience with multiple OS environment such as Ubuntu, centos, amazon Linux etc. <br />Troubleshooting Linux, User, and Group Management. <br />Experience in configuration of different web servers such as Apache, Tomcat, Nginx, HA-Proxy. <br />Experience with Apache virtual host and Nginx reverse proxy. <br />Experience with scripting languages such as Shell. <br />Experience with Standard Partition, LVM Partition, SWAP, SE-Linux. <br />Experience with continuous integrations systems such as Jenkins pipeline AWS code pipeline and code deploy. <br />Experience with AWS EC2, EBS Volume, VPC, NACL, VPC Peering, VPC Endpoint, RDS, S3, EFS, SNS, SES, Auto Scaling, application Load Balancer, Route 53, AWS code pipeline and Deploy. <br />Configure and maintain multiple database environment such as MySQL, Maria DB, PostgreSQL.
+              </p>
+            </div>
+
+            <div class="certificate">
+              <h4>Professional Certificates</h4>
+              <hr />
+              <div class="certificate-img">
+                <img class="social" src="{% static 'images/aws.png' %}" />
+                <img class="social" src="{% static 'images/rhcsa.png' %}" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card card-body h-100">
+            <h5><strong>My Education Qualification</strong></h5>
+            <hr />
+            <p>
+              <strong>Eastern University</strong><br /> Bachelor of Computer Science & Engineering (B.S.C) -- 2019
+            </p>
+            <p>
+              <strong>Feni Computer Institute</strong><br /> Diploma in Data Telecommunication & Network Technology -- 2015
+            </p>
+            <p>
+              <strong>Fazilarghat High school</strong><br /> Secondary School Certificate (Science) -- 2011
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="card card-body h-100">
+            <h5>What I Know</h5>
+            <hr />
+            <p>Python, Django, HTML/CSS, JavaScript/Jquery, React, Postgres, AWS and APIs such as google maps, JavaScript charts and a whole bunch more I can’t possibly mention in one sentence! ;)</p>
+            <p>PS: Working on Node JS, Mongo DB and Machine Learning.</p>
+          </div>
+        </div>
+      </div>
+      <br />
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card card-body h-100">
+            <h5>How I Learn</h5>
+            <hr />
+            <p>Reverse Engineer & Build Ugly Prototypes First.</p>
+
+            <p>I can learn just about anything by having a final product to tear apart piece by piece. I break the code where I need to figure out why things work the way they do. Documentation is just a reference.</p>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="card card-body h-100">
+            <h5>My Short Term Goals</h5>
+            <hr />
+            <p>After almost two years of supporting my system at the lab I’m ready to learn something new. I'll collaborating and sharing my experience with others on my blog (SayHelloWorld.co) & youtube channel.</p>
+            <p>Aside from building small projects I would love to enter a position where I can be part of a bigger team & learn from others with more experience than myself.</p>
+          </div>
+        </div>
+      </div>
+      <br />
+    </div>
+  </body>
+</html>
