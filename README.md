@@ -15,6 +15,7 @@ source myenv/bin/activate
 ## Now, Create a projects
 
 ```
+pip install django
 django-admin startproject myprofile
 cd myprofile
 python manage.py migrate 
