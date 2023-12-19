@@ -20,3 +20,8 @@ cd myprofile
 python manage.py migrate 
 python manage.py runserver 10.11.105.101:8000
 ```
+## Now, Create a app 
+
+```
+python3 manage.py startapp myapp
+```
